@@ -11,8 +11,6 @@
     <link rel="stylesheet" href="styles.css">
 
 </head>
- <div>
- </div>
 <body>
 
 </body>
