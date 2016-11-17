@@ -16,8 +16,10 @@
   <div class="content">
     <img class="avatar" src="images/profil.jpg" />
     <h1>Matthieu Sarran</h1>
-    <h2>Pianist. Foot-Fan. Mountainbiker. Lyonnais.</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    <h2>Christian. Pianist. Mountainbiker. Soccer fan.</h2>
+    <p>Living in Lyon, France and a fan of "l'Olympique Lyonnais", I was born on August 13th. 2002 and I am in 9th grade in
+    "Centre Scolaire de Saint-Martin en Haut". I'm French and American and also Christian. Passions: Music - Soccer - Cinema -
+    Christ.</p>
   </div>
 </body>
 </html>
