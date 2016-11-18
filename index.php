@@ -14,6 +14,9 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <?php
+  $age = 14;
+  ?>
   <div class="overlay"></div>
   <div class="header">
      <a href="https://play.spotify.com/user/matthieu.sarran">
@@ -28,7 +31,7 @@
     <h1>Matthieu Sarran</h1>
     <h2>Christian. Pianist. Mountainbiker. Soccer fan.</h2>
     <p>Living in Lyon, France and a fan of "l'Olympique Lyonnais",
-       I'm 14 years old and I am in 9th grade in
+       I'm <?php echo $age; ?> years old and I am in <?php echo $age-5; ?>th grade in
        "Centre Scolaire de Saint-Martin en Haut".
        I'm French and American and also Christian.
        Passions: Music - Soccer - Cinema - Christ.</p>
