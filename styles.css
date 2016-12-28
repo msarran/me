@@ -33,6 +33,14 @@ body {
   line-height: 100px;
 }
 
+.sidebar {
+    position:absolute;
+    left:0; top:100px; bottom: 0;
+    width: 125px;
+    background-color: black;
+    opacity: 0.80;
+}
+
 .overlay {
   background: rgba(0, 30, 255, 0.5);
   position: absolute;
@@ -78,6 +86,54 @@ p {
   opacity: 0.8;
 }
 
+.theme-music {
+  color: white;
+  font-weight: bold;
+  margin: 100px 10px 0px;
+  display: inline-block;
+  transition: all .5s ease;
+}
+
+.theme-music:hover {
+  transform: scale(1.20);
+}
+
+.theme-olympiquelyonnais {
+  color: white;
+  font-weight: bold;
+  margin: 100px 10px 0px;
+  display: inline-block;
+  transition: all .5s ease;
+}
+
+.theme-olympiquelyonnais:hover {
+  transform: scale(1.20);
+}
+
+.theme-centrescolairesaintmartinenhaut {
+  color: white;
+  font-weight: bold;
+  margin: 100px 10px 0px;
+  display: inline-block;
+  transition: all .5s ease;
+}
+
+.theme-centrescolairesaintmartinenhaut:hover {
+  transform: scale(1.20);
+}
+
+.theme-lyon {
+  color: white;
+  font-weight: bold;
+  margin: 100px 10px 0px;
+  display: inline-block;
+  transition: all .5s ease;
+}
+
+.theme-lyon:hover {
+  transform: scale(1.20);
+}
+
 .logo {
   height: 75px;
   margin: 0 50px;
@@ -87,6 +143,63 @@ p {
 
 .logo-spotify {
   height: 75px;
+}
+
+@keyframes pulse {
+	25% {
+		transform: scale(1.1);
+	}
+
+	75% {
+		transform: scale(.9);
+	}
+}
+
+.logo-spotify {
+	display: inline-block;
+}
+
+.logo-spotify:hover {
+  animation-name: pulse;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.logo-googleplus {
+  height: 75px;
+}
+
+@keyframes pulse {
+	25% {
+		transform: scale(1.1);
+	}
+
+	75% {
+		transform: scale(.9);
+	}
+}
+
+.logo-googleplus {
+  display: inline-block;
+}
+
+.logo-googleplus:hover {
+  animation-name: pulse;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.logo-erelyon {
+   border-radius: 50%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+
+.logo-erelyon:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
 }
 
 .link {
