@@ -14,11 +14,11 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   font-family: 'Roboto', sans-serif;
-  color: black;
+  color: white;
   font-size: 19px;
   font-weight: 300;
   text-align: center;
-  display: flex;
+  display: flex;;
   flex-direction: column;
 }
 
